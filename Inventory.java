@@ -1,4 +1,4 @@
-public class Inventory {
+/*public class Inventory {
     private String name;
     private String serialNumber;
     private int value;
@@ -22,4 +22,4 @@ public class Inventory {
     public int getValue() {
         return this.value;
     }
-}
+}*/
