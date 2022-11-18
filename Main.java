@@ -52,7 +52,7 @@ class Main {
 					String name = scanner.nextLine();
 					System.out.println("Enter the serial number: ");
 					String serialNumber = scanner.next();
-					System.out.println("Enter the value in dollars (whole numbers): ");
+					System.out.println("Enter the value in dollars (whole number): ");
 					int value = scanner.nextInt();
 					i = new Inventory(name, serialNumber, value);
 					arrayList.add(i);
@@ -74,7 +74,7 @@ class Main {
 					System.out.println("Enter the new name: ");
 					scanner.nextLine();
 					String name2 = scanner.nextLine();
-					System.out.println("Enter the new value in dollars (whole numbers): ");
+					System.out.println("Enter the new value in dollars (whole number): ");
 					int value2 = scanner.nextInt();
 					for(Inventory c : arrayList) {
 						if(c !=null && serialNumber3.equals(c.getSerialNumber())) {
